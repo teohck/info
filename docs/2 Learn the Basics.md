@@ -12,3 +12,7 @@ C is a compiled language - which means that in order to run it, the compiler (fo
 Every C program uses libraries, which give the ability to execute necessary functions. For example, the most basic function called printf, which prints to the screen, is defined in the stdio.h header file.
 
 To add the ability to run the printf command to our program, we must add the following include directive to our first line of the code:
+
+```
+#include <stdio.h>
+```
